@@ -5,7 +5,15 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- 配置Service -->
-    <bean id="accountService" class="com.toulan.service.impl.AccountServiceImpl">
+   <!-- <bean id="accountService" class="com.toulan.service.impl.AccountServiceImpl">
+        &lt;!&ndash;注入DAO&ndash;&gt;
+        <property name="accountDAO" ref="accountDAO"></property>
+        &lt;!&ndash;注入事务管理器&ndash;&gt;
+        <property name="txManager" ref="txManager"></property>
+    </bean>-->
+
+    <!--没有事务控制的转账操作-->
+    <bean id="accountService" class="com.toulan.service.impl.AccountServiceImpl_old">
         <!--注入DAO-->
         <property name="accountDAO" ref="accountDAO"></property>
         <!--注入事务管理器-->
