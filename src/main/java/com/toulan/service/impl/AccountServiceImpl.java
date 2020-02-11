@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @Author LOL_toulan
  * @Time 2020/2/3 20:42
- * @Message 账户的持久层实现类
+ * @Message 账户的持久层实现类，有事务控制
  */
 public class AccountServiceImpl implements AccountService {
 
@@ -160,7 +160,7 @@ public class AccountServiceImpl implements AccountService {
                 // 2.5更新转入账户
                 accountDAO.updateAccount(sourceAccount);
                 //2.6模拟网络出现问题
-                //int c = 1 / 0;
+                int c = 1 / 0;
                 // 2.7转入账户加钱
                 targetAccount.setMoney(targetAccount.getMoney() + money);
                 // 2.8更新转出账户

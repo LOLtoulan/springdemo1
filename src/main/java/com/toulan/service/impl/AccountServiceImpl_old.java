@@ -9,8 +9,7 @@ import java.util.List;
 
 /**
  * @Author LOL_toulan
- * @Time 2020/2/11 10:47
- * @Message
+ * @Message 没有事务控制
  */
 public class AccountServiceImpl_old implements AccountService {
     private AccountDAO accountDAO;
