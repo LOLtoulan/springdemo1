@@ -2,7 +2,6 @@ package com.toulan.domain;
 
 /**
  * @Author LOL_toulan
- * @Time 2020/2/3 20:43
  * @Message
  */
 public class Account {

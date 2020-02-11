@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.List;
 
 /**
- * 使用Junit单元测试：测试我们的配置
+ * 使用Junit单元测试
  */
 
 public class AccountServiceTest {

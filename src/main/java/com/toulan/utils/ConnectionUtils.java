@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 
 /**
- *
+ * 获取Connection的工具类
  */
 public class ConnectionUtils {
 

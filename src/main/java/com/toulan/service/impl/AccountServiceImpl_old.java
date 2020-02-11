@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @Author LOL_toulan
- * @Message 没有事务控制
+ * @Message 没有事务控制的实现类
  */
 public class AccountServiceImpl_old implements AccountService {
     private AccountDAO accountDAO;

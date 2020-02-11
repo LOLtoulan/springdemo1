@@ -4,7 +4,7 @@ package com.toulan.utils;
 import java.sql.SQLException;
 
 /**
- * 和事务相关的公具类，包含了开启事物，提交事务，关闭事务
+ * 和事务相关的公具类，包含了开启事物，提交事务，关闭事务，回滚事务
  */
 
 public class TransactionManager {

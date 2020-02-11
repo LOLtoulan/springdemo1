@@ -9,7 +9,6 @@ import java.util.List;
 
 /**
  * @Author LOL_toulan
- * @Time 2020/2/3 20:42
  * @Message 账户的持久层实现类，有事务控制
  */
 public class AccountServiceImpl implements AccountService {
